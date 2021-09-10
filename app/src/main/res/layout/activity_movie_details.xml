@@ -6,12 +6,12 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="#0F171E"
-    tools:context=".MovieDetails">
+    tools:context=".ui.MovieDetails">
 
     <ImageView
         android:id="@+id/details_image"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="@dimen/_180sdp"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_launcher_background"
        />
@@ -20,28 +20,28 @@
         android:id="@+id/details_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:layout_below="@id/details_image"
         android:fontFamily="@font/montserrat_bold"
         android:text="TextView"
         android:textColor="#ffffff"
-        android:textSize="20sp"
+        android:textSize="@dimen/_17ssp"
     />
 
     <TextView
         android:id="@+id/details_sub_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_4sdp"
         android:layout_below="@id/details_title"
         android:fontFamily="@font/montserrat_bold"
         android:text="TextView"
         android:textColor="#0288D1"
-        android:textSize="18sp"
+        android:textSize="@dimen/_15ssp"
       />
 
     <TextView
@@ -49,23 +49,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/details_sub_title"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_12sdp"
         android:fontFamily="@font/montserrat_bold"
         android:text="TextView"
         android:textColor="#ffffff"
-        android:textSize="16sp"
+        android:textSize="@dimen/_13ssp"
         />
 
 
     <ImageButton
         android:id="@+id/play_button"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="@dimen/_55sdp"
+        android:layout_height="@dimen/_55sdp"
         android:layout_above="@id/details_title"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="32dp"
+        android:layout_marginRight="@dimen/_28sdp"
 
         android:layout_marginBottom="-24dp"
         android:background="@drawable/play_btn_bg"

@@ -11,15 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MovieApp">
-        <activity android:name=".VedioPlayerActivity"
-           android:screenOrientation="landscape"/>
-        <activity android:name=".MovieDetails" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.VedioPlayerActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".ui.MovieDetails" />
+        <activity android:name=".ui.MainActivity">
+
         </activity>
 
         <meta-data

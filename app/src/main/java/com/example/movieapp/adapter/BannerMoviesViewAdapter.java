@@ -1,18 +1,15 @@
 package com.example.movieapp.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.bumptech.glide.Glide;
-import com.example.movieapp.MovieDetails;
 import com.example.movieapp.R;
 import com.example.movieapp.pojo.BannerMovies;
 

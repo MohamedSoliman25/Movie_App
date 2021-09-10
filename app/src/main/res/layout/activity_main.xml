@@ -6,30 +6,30 @@
     android:layout_height="match_parent"
     android:background="#0F171E"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:layout_marginStart="@dimen/_14sdp"
         android:fontFamily="@font/montserrat_bold"
-        android:textSize="20sp"
+        android:textSize="@dimen/_17ssp"
         android:text="Movie Streaming App"
         android:textColor="#ffffff"
-        android:layout_marginLeft="16dp" />
+        android:layout_marginLeft="@dimen/_14sdp" />
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginStart="@dimen/_14sdp"
+        android:layout_marginLeft="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:layout_marginEnd="@dimen/_14sdp"
+        android:layout_marginRight="@dimen/_14sdp"
 
         app:tabIndicatorColor="#ffffff"
         app:tabSelectedTextColor="#ffffff"
@@ -60,7 +60,7 @@
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="@dimen/_180sdp"
        >
 
         <androidx.viewpager.widget.ViewPager
@@ -77,7 +77,7 @@
             android:layout_centerInParent="true"
             app:tabBackground="@drawable/indicator_selector"
             app:tabIndicatorHeight="0dp"
-            app:tabMaxWidth="15dp" />
+            app:tabMaxWidth="@dimen/_12sdp" />
 
 
     </RelativeLayout>
@@ -85,20 +85,20 @@
     <TextView
         android:id="@+id/tv_movies"
         android:layout_width="wrap_content"
-        android:layout_height="26dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_12sdp"
         android:fontFamily="@font/montserrat_bold"
         android:text="Movie"
         android:textColor="#ffffff"
-        android:textSize="18sp" />
+        android:textSize="@dimen/_15ssp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="@dimen/_8sdp"
         />
 
 </LinearLayout>

@@ -10,32 +10,32 @@
     android:layout_centerInParent="true">
 
     <ImageView
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
         android:id="@+id/exo_rew"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="@dimen/_12sdp"
         android:src="@drawable/ic_backward"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="@dimen/_12sdp" />
 
     <ImageView
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
         android:id="@+id/exo_play"
         android:src="@drawable/ic_play_button"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:layout_marginRight="@dimen/_12sdp" />
 
     <ImageView
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
         android:id="@+id/exo_pause"
         android:src="@drawable/ic_pause"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:layout_marginRight="@dimen/_12sdp" />
 
     <ImageView
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
         android:id="@+id/exo_ffwd"
         android:src="@drawable/ic_forward_1_"
         />
@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="8dp"
+            android:padding="@dimen/_6sdp"
             android:gravity="bottom">
             <TextView
                 android:layout_width="wrap_content"
@@ -63,10 +63,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="/"
-                android:layout_marginStart="4dp"
+                android:layout_marginStart="@dimen/_3sdp"
                 android:textColor="#CBCDC8"
-                android:layout_marginLeft="4dp"
-                android:layout_marginEnd="4dp"/>
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_3sdp" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -86,5 +87,5 @@
         app:buffered_color="#95929F"
         app:played_color="#F57C00"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="24dp"/>
+        android:layout_marginBottom="@dimen/_20sdp"/>
 </RelativeLayout>

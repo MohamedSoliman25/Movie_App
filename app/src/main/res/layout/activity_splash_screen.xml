@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".ui.SplashScreen">
+
+    <View
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:background="#decba4"
+        />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_wave_2_"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_140sdp"
+        android:src="@drawable/splash_imag"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:id="@+id/splash_img"
+        />
+
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_75sdp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+
+        android:text="Movie App"
+        android:textColor="#decba4"
+        android:textSize="@dimen/_30ssp" />
+
+</LinearLayout>

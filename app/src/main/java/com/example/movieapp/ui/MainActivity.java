@@ -1,24 +1,19 @@
-package com.example.movieapp;
+package com.example.movieapp.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
 
+import com.example.movieapp.R;
 import com.example.movieapp.adapter.BannerMoviesViewAdapter;
 import com.example.movieapp.adapter.MainRecyclerAdapter;
 
-import com.example.movieapp.network.MovieClient;
 import com.example.movieapp.pojo.BannerMovies;
-import com.example.movieapp.pojo.Category;
 import com.example.movieapp.pojo.Video;
 import com.example.movieapp.viewmodel.MovieViewModel;
 import com.google.android.material.tabs.TabLayout;
@@ -27,9 +22,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
-
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
 
