@@ -12,3 +12,7 @@ a movie app that displays some films.
 
 ## APK
 https://drive.google.com/file/d/1IL5Zp2dhWRfG1i-TWHURBxbdLY1hYdSv/view?usp=sharing
+
+## Screenshots
+![WhatsApp Image 2021-09-14 at 6 49 31 AM](https://user-images.githubusercontent.com/74308533/133199924-85b754f3-5064-49b5-a9d4-732ad068fab0.jpeg)
+
